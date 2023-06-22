@@ -1,18 +1,12 @@
-import { log } from "console";
+'use client';
+import { useEffect  } from "react";
+import play from "@/app/playground";
 
 export default function Home() {
-  const message : string = "Hello World";
-  let age : number = 30 ;
-  let b !: AddEventListenerOptions;
-  let c !: NodeJS.Process ;
-  let person : User ={
-    name :'ahmed',
-  }
-  return (
-    <div>
-      {message}
-      <h3>{age}</h3>
-      {person.name}
-    </div>
-  )
+
+  useEffect(() => {
+    play();
+  }, []);
+
+  return <div>Hello World</div>;
 }
