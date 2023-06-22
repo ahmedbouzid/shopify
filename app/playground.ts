@@ -1,3 +1,7 @@
+type Person = {
+  name : string ,
+  age:number
+}
 export default function play() {
   console.log("Hello World"); 
   
@@ -10,7 +14,7 @@ export default function play() {
   console.log(info)
   return info
    }
-   function logPerson2(person:any) { 
+   function logPerson2(person:Person) { 
     const info = ` Name 1: ${person.name} , age: ${person.age}`
     console.log(info) ;
     return info 
