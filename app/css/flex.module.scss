@@ -1,0 +1,32 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+
+}
+.children { 
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+     margin: 10px;
+     flex-grow: 10px;
+}
+.children:first-child {
+    flex-grow: 3;
+}
+.parent1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.children1 { 
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+     margin: 10px;
+     flex-shrink: 30px;
+}
+.children:first-child{
+    flex-shrink: 0;
+}
