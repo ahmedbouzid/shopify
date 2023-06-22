@@ -1,7 +1,22 @@
+/* 
+Ts recommand to use Interfaces over types
+Descripe data structure in more natural way 
+Describing Objects
+
+*/
 interface Person {
   name : string ,
   age:number
 }
+// type Aliases 
+// to describe functions types
+//
+/* 
+type Person = {
+  name : string ,
+  age:number
+}
+*/
 export default function play() {
   console.log("Hello World"); 
   
