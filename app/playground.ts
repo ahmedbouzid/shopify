@@ -1,11 +1,11 @@
-type Person = {
+interface Person {
   name : string ,
   age:number
 }
 export default function play() {
   console.log("Hello World"); 
   
-    const person = { 
+    const person : Person = { 
        name : 'Ahmed' ,
        age : 27 ,
     }
