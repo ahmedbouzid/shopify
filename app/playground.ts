@@ -10,5 +10,11 @@ export default function play() {
   console.log(info)
   return info
    }
+   function logPerson2(person:any) { 
+    const info = ` Name 1: ${person.name} , age: ${person.age}`
+    console.log(info) ;
+    return info 
+   }
    logPErsonInfo(person.name , person.age)
+   logPerson2(person) ;
 }
