@@ -1,0 +1,12 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+
+}
+.children { 
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+     margin: 10px;
+}
