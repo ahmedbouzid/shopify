@@ -25,8 +25,8 @@
     height: 200px;
     background-color: aquamarine;
      margin: 10px;
-     flex-shrink: 30px;
+     flex-shrink: 1;
 }
 .children:first-child{
-    flex-shrink: 0;
+    flex-shrink: 2;
 }
